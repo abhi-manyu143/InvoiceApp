@@ -188,6 +188,7 @@
 
 
         function total_cal() {
+            $('#tax_amount').val('');
             let qty = Number(document.getElementById('qty').value);
             let amount = Number(document.getElementById('amount').value);
             var total = qty * amount;
